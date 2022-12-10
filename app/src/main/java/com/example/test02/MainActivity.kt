@@ -19,5 +19,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun lor() {
         Log.d("TAG", "lor: khar ha")
+        //add log d in main activity
     }
 }
