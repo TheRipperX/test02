@@ -2,6 +2,7 @@ package com.example.test02
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -14,5 +15,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun main() {
         Toast.makeText(this, "add git github", Toast.LENGTH_SHORT).show()
+    }
+
+    private fun lor() {
+        Log.d("TAG", "lor: khar ha")
     }
 }
