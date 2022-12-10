@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun main() {
+        //last method is lor add
         Toast.makeText(this, "add git github", Toast.LENGTH_SHORT).show()
         lor()
     }
